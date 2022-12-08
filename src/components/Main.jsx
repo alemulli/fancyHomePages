@@ -1,11 +1,20 @@
 import React from "react";
-import { Navbar } from './'
+import {
+  BrowserRouter as Router, 
+  Route, 
+  Routes
+} from "react-router-dom"
+import { HP1 } from './'
 
 const Main = () => {
   return (
+    <Router>
     <div id="main">
-      <Navbar />
+      <Routes>
+        <Route path="/" element={<HP1 />}/>
+      </Routes>
     </div>
+    </Router>
   );
 };
 

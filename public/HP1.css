@@ -1,0 +1,90 @@
+#hp1 {
+    color:#fff;
+        background-image: url('https://res.cloudinary.com/dyqjp130l/image/upload/v1670517134/fancyHomePages/kraftbier1_dg62f7.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    font-family: 'Monda', sans-serif;
+}
+
+#hp1content{
+    overflow:auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+@media (orientation: portrait) {
+    #hp1{
+        background-image: url('https://res.cloudinary.com/dyqjp130l/image/upload/v1670522753/fancyHomePages/kraftbier1_3_qexiee.jpg');
+        background-size:auto, 100vh;
+        background-attachment: fixed;
+        background-position: center;
+    background-repeat: no-repeat;
+    }
+
+    #hp1 #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+}
+
+#hp1 h1, #hp1 h2 {
+    font-family: 'Niconne', cursive;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+#hp1 h1 {
+    text-shadow: 2px 2px 4px black;
+    font-size: 3rem;
+}
+
+#hp1 h2 {
+    font-size: 2rem;
+}
+
+#hp1 #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+#hp1 #navButtons  {
+    display: flex;
+    gap: 10px;
+}
+
+#hp1 button {
+    font-family: 'Monda', sans-serif;
+    border: none;
+    border-radius: .3em;
+    padding: .5em;
+}
+
+#hp1 #header button {
+    background-color: #666465;
+    color: white;
+}
+
+#hp1 #siteIntro button {
+    background-color: #dc8304;
+    color: white;
+}
+
+#hp1 #siteIntro {
+    background-color:rgba(0, 0, 0, 0.3);
+    margin: 3em;
+    width: 55%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+    max-width: 500px;
+}
